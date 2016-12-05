@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header {
+  background: red;
+  /*display: inline-block;*/
+  width: 100%;
+}
+
+#main {
+  background: yellow;
+  /*display: inline-block;*/
+  width: 60%;
+  float: left;
+}
+
+aside {
+  background: green;
+  /*display: inline-block;*/
+  width: 40%;
+  float: right;
+}
+
+.clearfixed-container:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+footer {
+  background: blue;
+  width: 100%;
+}
+
+.placeholder {
+  border: 1px solid black;
+  background: rgba(255,255,255,.6);
+  padding: 20px;
+  margin: 10px;
+}
+
+section.placeholder {
+  color:red;
+}
+
+section.placeholder.special {
+  color: green;
+}
+
+aside.placeholder {
+  color: purple
+}
+
+aside .placeholder {
+  color: purple
+}
+
+main section .placeholder {
+  color: red;
+}

@@ -1,0 +1,24 @@
+
+
+
+blockquote p {
+  font-style: italic;
+  font-weight: lighter;
+  background: lavender;
+  padding: 5px;
+  font-size: 28px;
+}
+
+blockquote em {
+  font-weight: 300;
+  font-style: normal;
+  font-color: forestgreen;
+}
+
+p em span span {
+  color: red;
+}
+
+p em span {
+  color: blue;
+}
